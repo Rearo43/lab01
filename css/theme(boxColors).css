@@ -1,0 +1,47 @@
+@media (min-width: 768.50px){
+    
+    header:first-child{
+        background-color: purple;
+    }
+        
+    article:nth-child(1){
+        background-color: orange;
+    } 
+    
+    article:nth-child(n+2){
+        background-color: rgb(0, 38, 255);
+    }
+    
+    p{
+        background-color: greenyellow;
+    }
+    
+    footer > ul{
+        background-color: hotpink;
+    }
+  
+}
+  
+@media (max-width: 768.50px){
+  
+    header:first-child{
+        background-color: purple;
+    }
+  
+    article:nth-child(1){
+        background-color: orange;
+    }
+  
+    article:nth-child(n+2){
+        background-color: rgb(0, 38, 255);
+    }
+
+    p{
+        background-color: greenyellow;
+    }
+
+    footer > ul{
+        background-color: hotpink;
+    }
+
+}
