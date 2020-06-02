@@ -1,23 +1,39 @@
 @media (min-width: 768.50px){
     
     header:first-child{
-        background-color: purple;
+        background-color: rgba(44, 202, 13, 0.65);
     }
         
     article:nth-child(1){
-        background-color: orange;
+        background-color: rgba(36, 160, 11, 0.65);
     } 
     
-    article:nth-child(n+2){
-        background-color: rgb(0, 38, 255);
+    article:nth-child(2){
+        background-color: rgba(90, 41, 240, 0.65);
+    }
+
+    article:nth-child(3){
+        background-color: rgba(67, 30, 175, 0.65);
     }
     
-    p{
-        background-color: greenyellow;
+    p:nth-child(1){
+        background-color: rgba(3, 135, 250, 0.65);
+    }
+
+    p:nth-child(2){
+        background-color: rgba(8, 112, 202, 0.65);
+    }
+
+    p:nth-child(3){
+        background-color: rgba(9, 77, 136, 0.65);
+    }
+
+    p:nth-child(4){
+        background-color: rgba(6, 46, 82, 0.65);
     }
     
     footer > ul{
-        background-color: hotpink;
+        background-color: rgba(26, 112, 9, 0.65);
     }
   
 }
@@ -25,23 +41,39 @@
 @media (max-width: 768.50px){
   
     header:first-child{
-        background-color: purple;
+        background-color: rgb(44, 202, 13);
     }
-  
+        
     article:nth-child(1){
-        background-color: orange;
-    }
-  
-    article:nth-child(n+2){
-        background-color: rgb(0, 38, 255);
-    }
-
-    p{
-        background-color: greenyellow;
+        background-color: rgb(36, 160, 11);
+    } 
+    
+    article:nth-child(2){
+        background-color: rgb(90, 41, 240);
     }
 
+    article:nth-child(3){
+        background-color: rgb(67, 30, 175);
+    }
+    
+    p:nth-child(1){
+        background-color: rgb(3, 135, 250);
+    }
+
+    p:nth-child(2){
+        background-color: rgb(8, 112, 202);
+    }
+
+    p:nth-child(3){
+        background-color: rgb(9, 77, 136);
+    }
+
+    p:nth-child(4){
+        background-color: rgb(6, 46, 82);
+    }
+    
     footer > ul{
-        background-color: hotpink;
+        background-color: rgb(26, 112, 9);
     }
 
 }
