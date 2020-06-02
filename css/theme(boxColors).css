@@ -1,7 +1,7 @@
 @media (min-width: 768.50px){
     
     header:first-child{
-        background-color: rgba(44, 202, 13, 0.65);
+        background-color: rgba(84, 240, 52, 0.65);
     }
         
     article:nth-child(1){
@@ -13,7 +13,7 @@
     }
 
     article:nth-child(3){
-        background-color: rgba(67, 30, 175, 0.65);
+        background-color: rgba(44, 15, 131, 0.65);
     }
     
     p:nth-child(1){
@@ -41,7 +41,7 @@
 @media (max-width: 768.50px){
   
     header:first-child{
-        background-color: rgb(44, 202, 13);
+        background-color: rgb(84, 240, 52);
     }
         
     article:nth-child(1){
@@ -53,7 +53,7 @@
     }
 
     article:nth-child(3){
-        background-color: rgb(67, 30, 175);
+        background-color: rgb(44, 15, 131);
     }
     
     p:nth-child(1){
