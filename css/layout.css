@@ -1,0 +1,67 @@
+@media (min-width: 768.50px){
+    
+    header:first-child{
+        height: 100px;
+        width: 100%;
+    }
+
+    article:nth-child(1){
+        float: left;
+        height: 600px; 
+        width: 20.84%;
+    }
+    
+    article:nth-child(n+2){
+        float: left;
+        height: 200px;
+        width: 39.58%;
+    }
+    
+    p{
+        float: left;
+        height: 250px;
+        width: 19.79%;
+    }
+    
+    footer > ul{
+        float: left;
+        height: 150px;
+        width: 79.16%;
+    }
+  
+}
+  
+@media (max-width: 768.50px){
+  
+    header:first-child{
+        height: 75px;
+    }
+  
+    article:nth-child(1){
+        height: 150px;
+    }
+  
+    article:nth-child(n+2){
+        height: 125px;
+    }
+  
+    div p:nth-child(odd){
+        float: left;
+    }
+
+    div p:nth-child(even){
+        float: right;
+    }
+  
+    p{
+        height: 250px;
+        width: 50%;
+    }
+  
+    footer > ul{
+        float: left;
+        height: 80px;
+        width: 100%;
+    }
+  
+}

@@ -1,0 +1,28 @@
+@media (min-width: 768.50px){
+
+    body{
+        background-color: rgb(173, 169, 169);
+        color: rgb(29, 28, 28);
+        font-size: 2em;
+        margin: auto;
+        margin-top: 2.6%;
+        max-width: 960px;
+        text-align: center;
+    }
+  
+}
+  
+@media (max-width: 768.50px){
+  
+    body{
+        background-color: rgb(173, 169, 169);
+        color: rgb(29, 28, 28);
+        font-size: 2em;
+        margin: auto;
+        margin-top: 2.5%;
+        text-align: center;
+        width: auto;
+    }
+  
+  
+}
